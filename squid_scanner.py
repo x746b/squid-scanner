@@ -25,7 +25,6 @@ session = requests.Session()
 session.proxies = {'http': proxy_url, 'https': proxy_url}
 
 def check_port(port):
-    """Function to check if a port is open by making an HTTP request."""
     address = f"http://127.0.0.1:{port}"
     try:
         response = session.get(address, timeout=3)
