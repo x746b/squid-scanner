@@ -1,7 +1,3 @@
-# ----------------------------------------------
-#                  ><~|~/<  
-# ----------------------------------------------
-
 import sys, argparse, requests
 from concurrent.futures import ThreadPoolExecutor
 from requests.exceptions import RequestException
